@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/个人详情.css"/>
+		<script type="text/javascript">
+			function update(id,html){  //编辑后焦点离开文本框时执行的方法
+				  alert("id："+id+"；新内容："+html);
+				}  
+				
+				    function ShowElement(id) {  //双击使文本可编辑
+				        var oldhtml = document.getElementById(id).innerHTML;
+				        var newobj = document.createElement('textarea');
+				        newobj.type = 'text';
+				        newobj.value = oldhtml;
+				        newobj.onblur = function() {
+				            document.getElementById(id).innerHTML = this.value == oldhtml ? oldhtml : this.value;
+				  update(id,document.getElementById(id).innerHTML);
+				        }
+				        document.getElementById(id).innerHTML = '';
+				        document.getElementById(id).appendChild(newobj);
+				        newobj.setSelectionRange(0, oldhtml.length);
+				        newobj.focus();
+				    }
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="right"></div>	
+			<div class="touxiang">
+				<ul class="nav_right">
+					<li><a href="denglu.html" class="denlu">登录 |</a></li>
+					<li><a href="zhuce.html" class="zhuce">注册</a></li>
+				</ul>
+			</div>
+			<div class="logo" ></div>
+					<div class="center">
+				 	      <ul class="nav" >
+				        	<li><a href="index.html">首    页</a></li>
+				        	
+				        	<li><a href="chuangzuo.html">创作人</a></li>
+				        	<li><a class="on" href="#">作品展示</a></li>       
+    					  </ul> 
+    					  <div style="clear: both;"></div>
+				 </div>				
+		</div>
+		<div id="content">
+			<div id="content-1">				
+					<div class="tou-1">
+						<p class="name">Ember</p>
+						<div class="zhiye">
+							职业/特效师
+						</div>
+					</div>
+						<div class="biaoqian-1">
+							<ul class="bq-1">
+								<li><a href="zuopin.html">作品</a></li>
+								<li><a href="sucai.html">素材</a></li>
+								<li><a class="on" href="#">个人详情</a></li>
+							</ul>
+						</div>
+			</div>
+			<div id="content-2">
+				<div id="con-lef">
+					<ul class="xinxi">
+						<li>基本信息</li>
+						<li>个人简介</li>
+						<li>个性签名</li>
+					</ul>
+					<ul class="xinxi-text">
+						<li>					
+							<span class="xinxi-1">职业:学生/剪辑爱好者<br />
+							地区:四川/成都</span>
+						</li>
+						<li>
+							<span class="xinxi-1"><p id="dbtest" ondblclick="ShowElement('dbtest')">一名学习专业是UI的,喜欢前端,剪辑,特效的偏科人士</p></span>
+						</li>
+						<li>
+							<span class="xinxi-1"><p id="test" ondblclick="ShowElement('test')">你还有诗和远方，排骨和汤，虾和蟹黄，炸鸡和脆皮肠</p></span>	
+						</li>
+					</ul>
+				</div>
+				<div id="con-rig">
+					<div class="up">
+						技能
+					</div>
+					<div class="do">
+						<ul class="do-1">
+							<li><img src="img/photoshop.svg" style="border-radius: 20px;"/></li>
+							<li><img src="img/illustrator.svg" style="border-radius: 20px;"/></li>
+							<li><img src="img/premiere.svg" style="border-radius: 20px;"/></li>
+							<li><img src="img/ae_cc_app_RGB.svg" style="border-radius: 20px;"/></li>
+							<li><img src="img/HTML.png" style="border-radius: 20px;"/></li>
+							<li><img src="img/jn-6.jpg" style="border-radius: 20px;"/></li>
+							<li><img src="img/jn-7.jpg" style="border-radius: 20px;"/></li>
+							<li><img src="img/jn-8.jpg" style="border-radius: 20px;"/></li>
+							<li><img src="img/jn-9.jpg" style="border-radius: 20px;"/></li>
+						</ul>
+					</div>
+				</div>				
+			</div>
+			
+		</div>
+		<div id="footer">
+			<div class="footer_1">
+				<div class="footer_1_1">
+					<a href="">关于我们</a>
+					<a href="">责任帮助</a>
+					<a href="">使用说明</a>
+				</div>
+				<div class="footer_1_2">
+					<div class="lianxi"></div>
+					<div class="fangshi">
+						<p>班主任:王智</p>
+						<p>指导老师:陈雪冬</p>
+						<p>学生姓名：刘晨煜</p>
+						
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="footer_1_3">
+					国内最好的游戏视频网站！
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

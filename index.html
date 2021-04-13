@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+				<!--<script type="text/javascript">
+			//onload: 代表当页面加载完成之后执行init方法
+			window.onload = init;
+			var banner; //定一个全局的banner变量,促使它可以在任何地方使用
+			//创建一个init方法用于执行我们的图片切换功能
+			function init(){
+				//document.getElementById: 根据html中上的id来获取html标签
+				banner = document.getElementById("banner-lunbotu");
+				//启动定时器,让其开始执行图片切换
+				//创建一个启动定时器的方法
+				start_timer();
+			}
+			//启动定时器的方法
+			function start_timer(){
+				//setInterval: 周期性定时器
+				//setInterval("回调函数",时间毫秒)
+				setInterval("timer()",3000);
+			}
+			var i = 2; //初始化一个默认值
+			//真正执行图片切换的代码timer方法
+			function timer(){
+				//如果i的结果大于4,则将i的值重新赋值为1,然后又从头开始
+				if(i > 8){ i = 1; }
+				//使用banner变量调用对象中的src来修改图片的地址
+				banner.src = "img/banner"+i+".png";
+				//给i这个变量进行一个自身加一的操作
+				i++;
+			}
+		</script>-->
+	</head>
+	<body>
+		<div id="header">
+			<div class="right"></div>	
+			<div class="touxiang">
+				<ul class="nav_right">
+					<li><a href="denglu.html" class="denlu">登录 |</a></li>
+					<li><a href="zhuce.html" class="zhuce">注册</a></li>
+				</ul>
+			</div>
+			<div class="logo" ></div>
+					<div class="center">
+				 	      <ul class="nav" >
+        	<li><a class="on" href="#">首    页</a></li>
+        	
+        	<li><a href="chuangzuo.html">创作人</a></li>
+        	<li><a href="zuopin.html">作品展示</a></li>       
+    					  </ul> 
+    					  <div style="clear: both;"></div>
+				 </div>				
+		</div>
+					<div class="banner">
+					<img id="banner-lunbotu" src="img/banner1.png"/>
+				<a href=""><div class="banner-Button"></div></a>
+			</div>
+			
+			
+		<div id="content">
+			<div class="Secondary-title" >游戏推荐</div>
+				<ul id="container" class="clearfix">
+					   <li>
+						   <img class="img" src="img/t1.png">
+						   <p>
+							   <span>《侠盗猎车手5》（Grand Theft Auto V），是由Rockstar Games游戏公司出版发行的一款围绕犯罪为主题的开放式动作冒险游戏。游戏背景洛圣都基于现实地区中的美国洛杉矶和加州南部制作，游戏拥有几乎与现实世界相同的世界观。玩家可扮演三位主角并在任意时刻进行切换（在做某些任务和在被通缉的时候不能切换），每位主角都有自己独特的人格与故事背景，以及交织的剧情。</span>
+							   <i></i>
+						   </p>
+					   </li>
+					   <li>
+						   <img class="img" src="img/t2.png">
+						   <p>
+							   <span>《死亡搁浅》是一款由Kojima Productions开发，索尼互动娱乐于2019年11月8日发售的动作‎游戏。  
+					游戏讲述了主人公山姆必须勇敢直面因死亡搁浅而面目全非的世界，团结现存社会，拯救异空间人类的故事。</span>
+							   <i></i>
+						   </p>
+					   </li>
+					   <li style="width:400px; height:530px; margin:10px 0 0 0;">
+						   <img class="img" src="img/t7.png"  style="width:400px !important; height:530px !important;">  
+						   <p>
+							   <span>《茶杯头》是一款以BOSS战为主的横版卷轴类游戏，受上世纪30年代动画片启发，游戏画面音效都努力再现当时的技术，如传统的赛璐璐手绘动画、水彩背景还有原声爵士乐录音等。在游戏中玩家将扮演茶杯头Cuphead或马克杯人Mugman（有单人模式或本地双人合作模式），穿越奇异的世界，收集新武器，掌握强力酷炫招式并探索隐藏的秘密，为还清欠魔鬼的债务而奋战。
+					</span>
+							   <i></i>
+						   </p>
+					   </li>
+					   <li style="margin-top:-260px;">
+					   	   <img class="img" src="img/t3.png">
+						   <p>
+							   <span>《堡垒之夜》是一款第三人称射击游戏，因特殊的玩法与各种联动彩蛋而在国外有着极高的知名度，已成为现象级游戏。
+					</span>
+							   <i></i>
+						   </p>
+					   </li>
+					   <li style="margin-top:-260px;">
+						   <img class="img" src="img/t4.png">
+						   <p>
+							   <span>《极限竞速：地平线4》的开放世界以英国为背景，地图更广阔真实，而且官方还确认本作中将会拥有450辆以上的汽车。</span>
+							   <i></i>
+						   </p>
+					   </li>
+					   <li style="  margin:0 10px 10px 0;">
+						   <img class="img" src="img/t5.png">
+						   <p>
+							   <span>《赛博朋克2077》是知名游戏《巫师》系列开发商CD Projekt RED（简称CDPR）开发制作的一款角色扮演游戏。故事设定在黑暗腐败、科技高度发达的未来世界中，并且兼有开放世界元素与RPG机制。
+					
+					</span>
+							   <i></i>
+						   </p>
+					   </li>
+					   <li style="  margin:0 10px 10px 0;">
+						   <img class="img" src="img/t6.png">
+						   <p>
+							   <span>《Red Dead Redemption 2》，简称RDR2，是Rockstar San Diego工作室制作，Rockstar公司发行的一款以美国西部拓荒史为题材的动作冒险类开放世界游戏，为2010年该公司发行的《Red Dead Redemption》的正统续作。
+					游戏中述说亚瑟·摩根和声名狼藉的范德林德帮派的传奇故事，让玩家体验在 19 世纪的最后岁月里横跨美国的亡命之旅。</span>
+							   <i></i>
+						   </p>
+					   </li>
+					   <li style="  margin:0 ">
+						   <img class="img" src="img/t8.png">
+						   <p>
+							   <span>《星球大战绝地：陨落的武士团》由《泰坦陨落》厂商重生工作室带来的星战新作，本作故事介于星球大战电影第三部《星球大战3：西斯的复仇》与外传电影《星球大战外传：侠盗一号》之间，故事为工作室原创，游戏剧情属于正史。</span>
+							   <i></i>
+						   </p>
+					   </li>
+				</ul>
+
+<script type="text/javascript" src="js/script.js"></script> 
+				    <style type="text/css">
+				    	
+				    </style>
+				
+				    <div id="content-2">	
+				    	<div class="Secondary-title-2" >今日排行</div>	
+				    	<ul class="two">
+				    		<li >
+				    			<div class="two-img1"></div>
+				    			<div class="two-text1">
+					    			<p>假开大，骗技能后开大6杀</p>
+					    			<p>视频主：Ember</p>
+				    			</div>
+				    		</li>
+				    		<li >
+				    			<div class="two-img2"></div>
+				    			<div class="two-text2">
+					    			<p>精准定位，核爆6杀</p>
+					    			<p>视频主：Ember</p>
+				    			</div></li>
+				    		<li ><a href="video.html">
+				    			<div class="two-img3"></div>
+				    			<div class="two-text3">
+					    			<p>虫之呼吸，蝶之舞</p>
+					    			<p>视频主：Ember</p>
+				    			</div></a>
+				    		</li>
+				    		<li >
+				    			<div class="two-img4"></div>
+				    			<div class="two-text4">
+					    			<p>都给我感受宁静</p>
+					    			<p>视频主：Ember</p>
+				    			</div>
+				    		</li>
+				    	</ul><div style="clear: both;"></div>
+				    </div>
+					<div id="content-3">
+						<div class="Secondary-title-3" >今日创作</div>
+						<ul class="three">
+							<li>
+								<div class="three-1">
+								</div>
+								<div class="three-text">
+									<p>我看到你们了</p>
+									<div class="head-portrait">
+										<p><b>Ember</b></p>
+										<div class="bofangliang">
+											<p>20.9W</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="three-2">
+								</div>
+								<div class="three-text">
+									<p>睡眠时间良好，源氏</p>
+									<div class="head-portrait">
+										<p><b>Ember</b></p>
+										<div class="bofangliang">
+											<p>20.9W</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="three-3">
+								</div>
+								<div class="three-text">
+									<p>战斗天使，武装直升机</p>
+									<div class="head-portrait">
+										<p><b>Ember</b></p>
+										<div class="bofangliang">
+											<p>20.9W</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="video-2.html"><div class="three-4">
+								</div>
+								<div class="three-text">
+									<p>秒刀5杀！！！</p>
+									<div class="head-portrait">
+										<p><b>Ember</b></p>
+										<div class="bofangliang">
+											<p>20.9W</p>
+										</div>
+									</div>
+								</div></a>
+							</li>
+							<li>
+								<div class="three-5">
+								</div>
+								<div class="three-text">
+									<p>锁定目标！！！</p>
+									<div class="head-portrait">
+										<p><b>Ember</b></p>
+										<div class="bofangliang">
+											<p>20.9W</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="three-6">
+								</div>
+								<div class="three-text">
+									<p>叫我镖师</p>
+									<div class="head-portrait">
+										<p><b>Ember</b></p>
+										<div class="bofangliang">
+											<p>20.9W</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="three-7">
+								</div>
+								<div class="three-text">
+									<p>暴雪嘉年华</p>
+									<div class="head-portrait">
+										<p><b>Ember</b></p>
+										<div class="bofangliang">
+											<p>20.9W</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="three-8">
+								</div>
+								<div class="three-text">
+									<p>守望风景</p>
+									<div class="head-portrait">
+										<p><b>Ember</b></p>
+										<div class="bofangliang">
+											<p>20.9W</p>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<input type="image" name="gengduo" id="gengduo" value="" src="img/gengduo.png"/>
+		</div>
+		<div id="footer">
+			<div class="footer_1">
+				<div class="footer_1_1">
+					<a href="">关于我们</a>
+					<a href="">责任帮助</a>
+					<a href="">使用说明</a>
+				</div>
+				<div class="footer_1_2">
+					<div class="lianxi"></div>
+					<div class="fangshi">
+						<p>联系电话:18500005213</p>
+						<p>详细地址:四川省成都市双流区蛟龙大道</p>
+						<p>邮箱:llccyy1025@163.com</p>
+						
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="footer_1_3">
+					国内最好的游戏视频网站！
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

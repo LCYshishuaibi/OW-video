@@ -1,0 +1,416 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+		body{
+			width: 1920px;
+			margin: 0px auto;
+			text-align: center;
+		}
+		*{
+			margin: 0;
+			padding: 0;
+			font-size: 14px;
+		}
+		/*导航栏*/
+		#header{
+			height: 120px;
+			width: 1200px;
+			background: white;
+			box-shadow: -3px 10px 10px -15px #000;	
+			margin: 0px auto;
+			margin-left: 296px;
+			position: relative;
+			
+		}
+		.logo{
+			height: 120px;
+			width: 280px;
+			background: url(../img/OW-logo.png) no-repeat center center;
+			margin-right: 100px;			
+			float: left;
+			position: relative;
+		
+		}		
+		a{
+		  color: #333;
+		  text-decoration: none;
+		}
+        ul{
+            list-style: none;
+            height: 50px;                              
+            float: left;
+        }
+        .nav>li{
+        	margin-left: 44px;
+        }
+        li{
+            margin-top:50px;
+            float: left;
+            
+            }
+   
+        .nav li a{
+            display: block;
+            text-align: center;           
+            line-height:30px;
+            width: 80px;                    
+            border-radius: 100px;
+        }
+        .nav .on,.nav li a:hover{
+            color: #fff;
+            background-color: #f4a405;            
+            line-height: 40px;
+            margin-top: -10px;
+        }
+		
+        .right{        	
+        	background: red;
+        	float: right;
+        	background: url(../img/未标题-1.png)no-repeat left center;  
+        	width: 44px;
+        	height: 44px;
+        	position: relative; 
+        	top: 38px;
+        	margin-left: -144px;
+        	left: -100px;
+        	
+        }
+		.right>p{
+			color: #f4a405;
+			display: block;
+			float: right;			
+			line-height: 44px;
+			margin-right: 10px;
+		}
+		.nav_right{
+			list-style: none;
+			margin: 0px 0px;
+			display: block;
+			float: right;
+			
+		}
+		.nav_right a{
+			text-decoration: none;
+			color: #f4a405;
+			cursor: hand;
+		}
+		.nav_right>li{
+			margin-right: 10px;
+		}
+		#content{
+			width: 1200px;			
+			margin: 200px auto;
+			margin-left: 296px;						
+		}
+		/*banner*/
+		.banner{
+			width: 1920px;	
+			height: 675px;
+			background: url(../img/banner1.png) no-repeat center center;
+			margin-top: 8px;
+			margin-left: -26px;
+			position: relative;
+		}
+		.banner-Button{
+			width: 280px;
+			height: 76px;
+			background: url(../img/视频投稿.png)no-repeat center;
+			position: absolute;
+		}
+		.banner-Button{
+			right: 965px;
+			top: 540px;
+		}
+		.banner-Button a:hover{
+			cursor: hand;
+		}
+		#content-banner{
+			width: 1920px;
+		}
+		.Secondary-title{
+			font-size: 24px;
+			text-align: center;	
+			line-height: 100px;		
+			margin-right: 52px;
+			position: relative;		
+		}		
+		/*二级内容*/
+		#content-2{
+			height: 800px;			
+		}
+		.one li{
+			width: 280px;
+			height: 168px;
+
+			float: left;
+			margin: 14px 52px;		
+		}
+		.texie{
+			width: 78px;
+			height: 116px;
+			background: url(../img/texiao.png)no-repeat center;
+
+		}
+		.gaoqing{
+			width: 78px;
+			height: 108px;
+			background: url(../img/gaoqing.png)no-repeat center;
+
+		}
+		.toufang{
+			width: 78px;
+			height: 116px;
+			background: url(../img/toufang.png)no-repeat center;
+
+		}
+		.texie p{
+			position: relative;
+			margin-top: 148px;
+		}
+		.gaoqing p{
+			position: relative;
+			margin-top: 148px;
+		}
+		.toufang p{
+			position: relative;
+			margin-top: 148px;
+		}
+		.Secondary-title-2{
+			font-size: 24px;
+			text-align: center;	
+			line-height: 100px;		
+			margin-right: 52px;
+			margin-top: 870px;
+			position: relative;		
+		}			
+		.two li{
+			width: 280px;
+			height: 642px;
+			/*border: 1px solid #f4a405;*/
+			float: left;
+			margin: 6px;
+			cursor: pointer;					
+			transition: all 1s;
+
+		}
+		.two li:hover{
+			box-shadow: 0px 5px 8px 2px rgba(243,149,25,0.4);
+			transform: translate(0px,0px);
+			transform: translateY(-4px);
+		}
+		.two-img1{
+			width: 280px;
+			height: 642px;
+			background: url(../img/a1.png) no-repeat center;
+			margin-top: -46px;
+		}
+		.two-text1{
+			line-height: 20px;
+			margin-top: -18px;
+		}
+		.two-img2{
+			width: 280px;
+			height: 642px;
+			background: url(../img/a2.png) no-repeat center;
+			margin-top: -46px;
+		}
+		.two-text2{
+			line-height: 20px;
+			margin-top: -18px;
+		}
+		.two-img3{
+			width: 280px;
+			height: 642px;
+			background: url(../img/a3.png) no-repeat center;
+			margin-top: -46px;
+		}
+		.two-text3{
+			line-height: 20px;
+			margin-top: -18px;
+		}
+		.two-img4{
+			width: 280px;
+			height: 642px;
+			background: url(../img/a4.png) no-repeat center;
+			margin-top: -46px;
+		}
+		.two-text4{
+			line-height: 20px;
+			margin-top: -18px;
+		}
+
+		#content-3{
+			height: 800px;
+		}
+		.Secondary-title-3{
+			font-size: 24px;
+			text-align: center;	
+			line-height: 100px;		
+			margin-right: 52px;
+			margin-top: 72px;
+			position: relative;
+			}	
+		.three li{
+			width: 278px;
+			height: 313px;
+			/*border: 1px solid #999999;*/
+			float: left;
+			margin: 6px;
+			border-radius: 10px;
+			cursor: pointer;					
+			transition: all 0.5s;
+		}
+		.three li:hover{
+			box-shadow: 0px 5px 8px 2px rgba(144,144,144,0.8);
+			transform: translate(0px,0px);
+			transform: translateY(-4px);
+		}
+		.three-1{
+			width: 280px;
+			height: 240px;
+			background: url(../img/three-1.png) no-repeat center;
+			margin-top: -1px;
+		}
+		
+		.three-text{
+			line-height: 36px;
+			margin-top: 0px;
+			margin-left: 10px;
+		}
+		.head-portrait{
+			width: 28px;
+			height: 28px;
+			background: url(../img/touxiang.png) no-repeat center;			
+			float: left;
+			margin-left: 12px;
+			border-radius: 20px;
+		}
+		
+		.head-portrait p{
+			margin: 0px auto;
+			float: right;
+			line-height: 26px;
+			margin-right: -52px;
+		}
+		.bofangliang{
+			width: 28px;
+			height: 28px;
+			background: url(../img/bofang.png) no-repeat center;
+			margin: 0px 172px;
+			margin-top: 0px;
+		}
+		.bofangliang p{
+			margin: 0px auto;
+			line-height: 10px;
+			margin-right: -42px;
+			margin-top: 10px;
+			float: right;
+		}
+		.three-2{
+			width: 280px;
+			height: 240px;
+			background: url(../img/three-2.png) no-repeat center;
+			margin-top: -1px;
+		}
+		.three-3{
+			width: 280px;
+			height: 240px;
+			background: url(../img/three-3.png) no-repeat center;
+			margin-top: -1px;
+		}
+		.three-4{
+			width: 280px;
+			height: 240px;
+			background: url(../img/three-4.png) no-repeat center;
+			margin-top: -1px;
+		}
+		.three-5{
+			width: 280px;
+			height: 240px;
+			background: url(../img/three-5.png) no-repeat center;
+			margin-top: -1px;
+		}
+		.three-6{
+			width: 280px;
+			height: 240px;
+			background: url(../img/three-6.png) no-repeat center;
+			margin-top: -1px;
+		}
+		.three-7{
+			width: 280px;
+			height: 240px;
+			background: url(../img/three-7.png) no-repeat center;
+			margin-top: -1px;
+		}
+		.three-8{
+			width: 280px;
+			height: 240px;
+			background: url(../img/three-8.png) no-repeat center;
+			margin-top: -1px;
+		}
+		#gengduo{
+			width: 148px;
+			height: 48px;			
+			margin: 0px auto;
+			margin-top: 50px;
+		}
+		#gengduo:hover{
+			cursor: hand;
+		}
+		/*版权*/
+		#footer{
+			height: 380px;
+			background: #FFFFFF;
+			box-shadow: -15px 7px 17px 0px #000;
+		}
+		.footer_1{
+			width: 500px;
+			height: 200px;
+			margin: 0px auto;
+			margin-left: 650px;			
+		}
+		.footer_1_1 a:hover{
+			color: blue;
+		}
+		.footer_1_1 a{
+			color: #DEDEDE;
+			margin: 20px;
+			line-height: 70px;
+		}
+		.footer_1_1{
+			height: 30px;
+			width: 330px;
+			margin: 0px auto;
+		}
+		.footer_1_2{
+			height: 100px;
+			width: 330px;
+			margin: 40px auto;
+			
+		}
+		.lianxi{
+			width: 280px;
+			height: 76px;
+			background: url(../img/OW-logo.png) no-repeat center center;
+			float: left;						
+			margin-left:20px ;
+		}
+		.fangshi{
+			width: 302px;
+			height: 100px;
+			float: left;
+			
+		}
+		.fangshi p{
+			font-size: 14px;
+			color: #333333;
+			padding-left: 20px;
+			padding-top: 20px;
+			
+		}
+		.footer_1_3{
+			height: 10px;
+			width: 370px;
+			margin: 0px auto;
+			color: #999999;
+			margin-top: 160px;
+		}
+

@@ -1,0 +1,336 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+		body{
+			width: 1920px;
+			margin: 0px auto;
+			text-align: center;
+		}
+		*{
+			margin: 0;
+			padding: 0;
+			font-size: 14px;
+		}
+		/*导航栏*/
+		#header{
+			height: 120px;
+			width: 1200px;
+			background: white;
+			box-shadow: -3px 10px 10px -15px #000;	
+			margin: 0px auto;
+			margin-left: 296px;
+			position: relative;
+			min-height: 100%;
+		}
+		.logo{
+			height: 120px;
+			width: 280px;
+			background: url(../img/OW-logo.png) no-repeat center center;
+			margin-right: 100px;			
+			float: left;
+			position: relative;
+		
+		}
+		a{
+		  color: #333;
+		  text-decoration: none;
+		}
+        .touxiang ul{
+            list-style: none;           
+            width: 100px;                             
+            float: right;
+        }
+        .nav>li{
+        	margin-left: 44px;
+        	list-style: none;
+        }
+        .center li{
+            margin-top:50px;
+            float: left;
+            
+         }
+   
+        .nav li a{
+            display: block;
+            text-align: center;           
+            line-height:30px;
+            width: 80px;                    
+            border-radius: 100px;
+        }
+        .nav .on,.nav li a:hover{
+            color: #fff;
+            background-color: #f4a405;            
+            line-height: 40px;
+            margin-top: -10px;
+        }
+		
+        .right{        	
+        	background: red;
+        	float: right;
+        	background: url(../img/未标题-1.png)no-repeat left center;  
+        	width: 44px;
+        	height: 44px;
+        	position: relative; 
+        	top: 38px;
+        	margin-left: -44px;
+        	left: -110px;
+        	
+        }
+		.right>p{
+			color: #f4a405;
+			display: block;
+			float: right;			
+			line-height: 44px;
+			margin-right: 10px;
+		}
+		.nav_right{
+			list-style: none;
+			margin: 0px 0px;
+			display: block;
+			
+			
+		}
+		.nav_right a{
+			text-decoration: none;
+			color: #f4a405;
+			cursor: hand;
+		}
+		.nav_right>li{
+			margin-right: 10px;
+			margin-top: 50px;
+			float: left;
+		}
+		#content{
+			width: 1200px;
+			margin: 40px auto;
+			margin-left: 296px;		
+			position: absolute;
+		}
+		#content-1{
+			width: 1180px;
+			height: 100px;			
+			border-radius: 50px;
+			margin: 0px auto;
+			box-shadow: 0px 0px 16px 0px #666666;
+			position: relative;
+			
+		}		
+		.tou-1{
+			width: 190px;
+			height: 70px;
+			border-radius: 35px;
+			background: url(../img/tou-2.png) no-repeat;
+			margin-top: 16px;
+			left: 110px;
+			float: left;
+			position: absolute;
+		}
+		.name{
+			margin-right: -36px;
+			margin-top: 10px;
+			font-size: 18px;
+		}
+		.zhiye{
+			width: 100px;
+			height: 22px;
+			background: #f4a405;
+			border-radius: 10px;
+			margin-right: 10px;
+			float: right;
+		}
+		.biaoqian-1 ul{
+			right: 360px;
+			position: absolute;
+		}
+		.bq-1>li{
+			margin-left: 44px;
+        	list-style: none;
+        	float: right;
+        	
+		}
+		.biaoqian-1 li{
+			width: 100px;
+			height: 28px;
+			/*background:#f4a405 */;
+			border-radius: 11px;
+			margin-top:40px;
+          	float: left;
+		}
+		.biaoqian-1 li a{
+           
+            text-align: center;           
+            line-height:30px;
+            width: 80px;                    
+            border-radius: 100px;
+        }
+        .bq-1 .on,.bq-1 a:hover{
+        	color: #fff;
+            background-color: #f4a405;            
+            width: 100px;
+            height: 28px;
+            display: block;
+        }
+        #content{
+			width: 1200px;			
+			margin: 40px auto;
+			margin-left: 296px;						
+		}
+		#content-2{
+			margin-top: 40px;
+		}
+		#con-lef{
+			width: 600px;
+			height: 500px;
+			/*background: red;*/
+			float: left;
+		}
+		#con-rig{
+			width: 600px;
+			height: 500px;
+			/*background: blue;*/
+			float: right;
+		}
+		.xinxi{
+			padding-top: 28px;
+			
+		}
+		.xinxi li{
+			width: 180px;
+			height: 54px;
+			/*background: blue;*/
+			list-style: none;
+			/*display: block;*/						
+			line-height: 54px;
+			text-align: center;
+			border-radius: 10px;
+			margin: 0px 0px 162px 14px;
+			box-shadow: 0px 0px 12px -4px #999999;
+			color: #f4a405;
+			
+		}
+		#dbtest{
+			font-size: 16px;
+		}
+		#test{
+			font-size: 16px;
+		}
+		.xinxi-text{
+			padding-top: 10px;
+			margin: -578px 0px 0px 0px;
+		}
+		.xinxi-text li{
+			width: 480px;
+			height: 98px;
+			list-style: none;			
+			border-radius: 10px;
+			box-shadow: 0px 0px 12px -4px #999999;
+			margin: 6px 0px 122px 14px;			
+			color: #333333;
+		}
+		.xinxi-1{			
+			display: block;
+			text-align: left;
+			font-size: 18px;
+			line-height: 40px;
+			/*text-indent: 120px;	*/		
+			padding-right: 70px;
+			padding-left: 30px;
+			padding-top: 8px;
+			float: left;
+		}
+		#con-rig{
+			padding-top: 28px;
+		}
+		.up{			
+			width: 180px;
+			height: 54px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 12px -4px #999999;
+			line-height: 54px;
+			color: #f4a405;
+			margin: 0px 0px 20px 0px;
+		}
+		.do{
+			width: 580px;
+			height: 550px;
+			box-shadow: 0px 0px 12px -4px #999999;
+			border-radius: 10px;
+		}
+		.do-1{
+			list-style: none;
+			padding-top: 20px;
+			padding-left: 20px;
+		}
+		.do-1 li{
+			width: 132px;
+			height: 132px;
+			/*background: #F4A405;*/
+			border-radius: 20px;
+			float:left;		
+			margin: 16px 8px 20px 30px ;
+			/*margin-top: 54px;*/		
+			 overflow: hidden;	
+		}
+		.do-1 img{
+			cursor: pointer;
+  			transition: all 0.6s;
+		}
+		.do-1 img:hover{
+			 transform: scale(1.4);
+		}
+		#footer{			
+			height: 380px;
+			background: #FFFFFF;
+			box-shadow: -15px 7px 17px 0px #000;
+			width: 100%;
+		}
+		.footer_1{
+			width: 500px;
+			height: 200px;
+			margin: 940px auto;
+			margin-left: 650px;			
+		}
+		.footer_1_1 a:hover{
+			color: blue;
+		}
+		.footer_1_1 a{
+			color: #DEDEDE;
+			margin: 20px;
+			line-height: 70px;
+		}
+		.footer_1_1{
+			height: 30px;
+			width: 330px;
+			margin: 0px auto;
+		}
+		.footer_1_2{
+			height: 100px;
+			width: 330px;
+			margin: 40px auto;
+			
+		}
+		.lianxi{
+			width: 280px;
+			height: 76px;
+			background: url(../img/OW-logo.png) no-repeat center center;
+			float: left;						
+			margin-left:20px ;
+		}
+		.fangshi{
+			width: 302px;
+			height: 100px;
+			float: left;
+			
+		}
+		.fangshi p{
+			font-size: 14px;
+			color: #333333;
+			padding-left: 20px;
+			padding-top: 20px;
+			
+		}
+		.footer_1_3{
+			height: 10px;
+			width: 370px;
+			margin: 0px auto;
+			color: #999999;
+			margin-top: 160px;
+		}

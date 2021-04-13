@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/创作人素材.css"/>
+	</head>
+	<body>
+		<div id="header">
+			<div class="right"></div>	
+			<div class="touxiang">
+				<ul class="nav_right">
+					<li><a href="" class="denlu">登录 |</a></li>
+					<li><a href="" class="zhuce">注册</a></li>
+				</ul>
+			</div>
+			<div class="logo" ></div>
+					<div class="center">
+				 	      <ul class="nav" >
+				        	<li><a href="index.html">首    页</a></li>
+				        	
+				        	<li><a href="chuangzuo.html">创作人</a></li>
+				        	<li><a class="on" href="#">作品展示</a></li>       
+    					  </ul> 
+    					  <div style="clear: both;"></div>
+				 </div>				
+		</div>
+		<div id="content">
+			<div id="content-1">				
+					<div class="tou-1">
+						<p class="name">Ember</p>
+						<div class="zhiye">
+							职业/特效师
+						</div>
+					</div>
+						<div class="biaoqian-1">
+							<ul class="bq-1">
+								<li><a href="zuopin.html">作品</a></li>
+								<li><a class="on"href="#">素材</a></li>
+								<li><a href="geren.html">个人详情</a></li>
+							</ul>
+						</div>
+			</div>
+			<div id="content-2">
+				<ul class="zuopin-1">
+					<li class="zp-1"><a href="#"><img src="img/sc-6.jpg"/></a></li>
+					<li class="zp-2"><a href="#"><img src="img/sc-2.jpg"/></a></li>
+					<li class="zp-3"><a href="#"><img src="img/sc-3.jpg"/></a></li>
+					<li class="zp-4"><a href="#"><img src="img/sc-4.jpg"/></a></li>
+					<li class="zp-5"><a href="#"><img src="img/sc-5.jpg"/></a></li>
+					<li class="zp-6"><a href="javascript:void(0)">
+						<video id="video" onmouseover="videoPlayback()" onmouseout="videoStopped()"
+						width="280px" height="165px" style="border-radius: 20px;">
+            			<!--视频类型为视频和视频路径-->
+            			<source type="audio/mp4" src="img/s2.mp4"></source>
+         				</video></a></li>
+					<li class="zp-7"><a href="#"><img src="img/sc-7.jpg"/></a></li>
+					<li class="zp-8"><a href="#"><img src="img/sc-8.jpg"/></a></li>			
+					<li class="zp-9"><a href="#"><img src="img/sc-9.jpg"/></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer_1">
+				<div class="footer_1_1">
+					<a href="">关于我们</a>
+					<a href="">责任帮助</a>
+					<a href="">使用说明</a>
+				</div>
+				<div class="footer_1_2">
+					<div class="lianxi"></div>
+					<div class="fangshi">
+						<p>班主任:王智</p>
+						<p>指导老师:陈雪冬</p>
+						<p>学生姓名：刘晨煜</p>
+						
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="footer_1_3">
+					国内最好的游戏视频网站！
+				</div>
+			</div>
+		</div>
+	</body>
+	 <script>
+         //鼠标移进去
+         function videoPlayback(){
+             //获取视频标签
+             var video = document.getElementById('video'); 
+             //给视频标签添加缓存播放---video标签属性。
+             video.setAttribute("autoplay","autoplay")
+             //给视频标签添加循环播放---video标签属性。
+             video.setAttribute("loop","loop")
+             //播放视频
+             video.play();
+        }
+         
+        //鼠标离开
+         function videoStopped(){
+             //获取视频标签
+             var oDiv = document.getElementById('video'); 
+             //停止播放
+             video.pause();
+         }
+    </script>
+</html>
